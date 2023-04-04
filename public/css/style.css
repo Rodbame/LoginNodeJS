@@ -1,0 +1,76 @@
+body{
+    background: rgb(224, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-form h1{
+    text-align: center;
+    color: midnightblue;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.login-form input[type="password"], .login-form input[type="text"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 15px;
+    background-color: #5a2dd6;
+    bottom: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+}
+
+.btn-login:hover,.btn-login:active{
+    color: #fff;
+    background-color: #61428f;
+    border-color: #61428f;
+}
+
+.btn-login:focus{
+    box-shadow: 0 0 0 3px rgba(121, 82, 179, .25);
+}
+
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: #42e0a3;
+    bottom: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+    margin-top: 20px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-register:hover,.btn-register:active{
+    color: #fff;
+    background-color: #10b981;
+    border-color: #10b981;
+}
+
+.btn-register:focus{
+    box-shadow: 0 0 0 3px #10b981;
+}
+
